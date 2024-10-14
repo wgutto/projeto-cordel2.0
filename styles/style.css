@@ -17,6 +17,8 @@ html, body {
     background-color: lightgray;
 }
 
+
+
 header {
     text-align: center;
 
@@ -63,31 +65,57 @@ header nav a:hover {
 }
 
 
+
 main {
     margin: auto;
-    width: 800px;
+    max-width: 800px;
 }
 main section {
     padding: 20px;
 }
 main section p {
-    width: 200px;
+    width: 300px;
     display: inline-block;
     padding: 10px;
     line-height: 40px;
     font-family: var(--font02);
     font-size: 20px;
 }
-main section.normal {
+main section.image {
     display: flex;
+    align-items: end;
     flex-direction: column;
 
     background-color: white;
-    color: black;
+    color: white;
 }
-main section.image {
+main section#img01 {
+    background: url(../images/fundo01.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main section#img02 {
+    background: url(../images/fundo02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main section#img03 {
+    background: url(../images/fundo03.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main section.normal {
     background-color: black;
     color: white;
+}
+main section.image p {
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 
