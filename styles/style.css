@@ -91,23 +91,20 @@ main section.image {
 }
 main section#img01 {
     background: url(../images/fundo01.jpg);
-    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 main section#img02 {
     background: url(../images/fundo02.jpg);
-    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 main section#img03 {
     background: url(../images/fundo03.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
     background-size: cover;
+    background-position: top center;
     background-attachment: fixed;
 }
 main section.normal {
@@ -115,7 +112,7 @@ main section.normal {
     color: white;
 }
 main section.image p {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.692);
 }
 
 
